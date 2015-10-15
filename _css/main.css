@@ -1,1 +1,86 @@
 /* css */
+body{
+    margin:0px;
+    padding:0px;
+    background-color:;
+}
+
+#header{
+    background-color:#404040;    /* this changes the background color to #404040 */
+    padding:0px;
+    color:white;
+}
+
+#header h1{
+    font-family: Verdana;
+    font-size:60pt;
+    padding:20px;
+    margin:0px;
+}
+
+/* navigation*/
+#nav, #nav a{
+    background-color:#666666;    /* this changes the background color to #666666 */
+    padding:10px;
+}
+
+#nav a{
+    margin:0px;
+    color:black;
+    font-family:arial;
+    text-decoration:none;
+    transition:color 2s, background-color 2s;
+}
+
+#nav a:hover{
+    background-color:#33CCCC;    /* this changes the background color to #33CCCC */
+    color:white;
+    transition:color 2s;
+}
+/* end navigation */
+
+#spotlight{
+    background-color:#33CCCC;
+    padding:20px;
+}
+
+#content{
+    padding:20px 40px;
+}
+
+h2, h3{
+    font-family: arial;
+}
+
+#footer{
+    background-color:black;
+    color:white;
+    margin:0px;
+    padding:20px 40px;
+}
+/*     
+#header{
+    padding:20px;
+    width:400px;
+    background-color:#7B68EE;
+}
+#header:hover{
+    width:200px;
+    background-color:#48D1CC;
+    transition:width 2s, background-color 2s;
+}
+#nav{
+    background-color:#48D1CC;
+}
+#nav a :hover{
+    background-color:#7B68EE;
+    transition:background-color 2s, font-size 2s
+}
+#content{
+    background-color:yellow;
+    
+}
+#footer{
+    background-color:green;
+}
+*/
